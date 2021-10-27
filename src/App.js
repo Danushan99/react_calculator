@@ -31,7 +31,6 @@ const App =() => {
               <form >
                   <input type="text" value={result}/>
               </form>
-
               <div className="keypad">
                   <button className="highlight" onClick={clear} id="clear">clear</button>
                   <button className="highlight" onClick={backspace} id="backspace">c</button>
@@ -50,8 +49,7 @@ const App =() => {
                   <button  className="highlight" name="+" onClick={handleClick}>+</button>
                   <button name="0" onClick={handleClick}>0</button>
                   <button   name="." onClick={handleClick}>.</button>
-                  <button className="highlight"  onClick={calculate} id="result">=</button>
-                  
+                  <button className="highlight"  onClick={calculate} id="result">=</button> 
               </div>
           </div>
       </>

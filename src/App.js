@@ -22,9 +22,8 @@ const App =() => {
       {
           setResult("Error")
       }
-      
+    
   }
-
   return (
       <>
           <div className="container">
